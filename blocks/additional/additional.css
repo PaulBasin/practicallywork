@@ -1,0 +1,41 @@
+@import url(./__row/additional__row.css);
+@import url(./__item/additional__item.css);
+@import url(./__heading/additional__heading.css);
+@import url(./__text/additional__text.css);
+@import url(./__overlay/additional__overlay.css);
+
+.additional {
+  max-width: 1184px;
+  margin: auto;
+  margin-top: 102px;
+}
+
+@media screen and (max-width: 1240px) {
+  .additional {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .additional {
+    width: calc(100% - 34px);
+    max-width: 991px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .additional {
+    max-width: 584px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .additional {
+    width: calc(100% - 32px);
+  }
+}
+
+
+

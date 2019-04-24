@@ -1,0 +1,54 @@
+.emblem__item {
+  
+  /* margin-bottom: 90px; */
+  width: 208px;
+  margin-right: 10px;
+}
+
+.emblem__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width : 1020px) {
+  .emblem__item {
+    margin-bottom: 90px;
+  }
+
+  .emblem__item:nth-of-type(4) {
+    margin-bottom: 0;
+  }
+
+  .emblem__item:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width : 700px) {
+  .emblem__item {
+    margin: 0 auto 56px;
+  }
+  .emblem__item:last-of-type {
+    margin-right: auto;
+  }
+}
+
+
+/* .emblem__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .emblem__item {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .emblem__item {
+    margin: 0 auto 56px;
+  }
+} */
+
+
+
+

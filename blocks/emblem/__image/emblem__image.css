@@ -1,0 +1,18 @@
+.emblem__image {
+  display: block;
+  height: 226px;
+  margin: 0 auto;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .emblem__image {
+    min-height: 210px;
+    max-width: 159px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .emblem__image {
+    min-height: 226px;
+  }
+} */

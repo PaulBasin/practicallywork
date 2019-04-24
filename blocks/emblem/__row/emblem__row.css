@@ -1,0 +1,20 @@
+.emblem__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 82px;
+  
+}
+
+@media screen and (max-width: 1020px) {
+  .emblem__row {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .emblem__row {
+
+    flex-direction: column;
+  }
+}

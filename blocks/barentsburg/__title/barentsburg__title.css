@@ -1,0 +1,30 @@
+.barentsburg__title {
+  font-size: 42px;
+  line-height: 60px;
+  margin: 0;
+  max-width: 593px;
+}
+
+@media screen and (max-width: 1024px) {
+  .barentsburg__title {
+    margin: 0 auto;
+    width: calc(100% - 96px);
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .barentsburg__title {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .barentsburg__title {
+    width: calc(100% - 32px);
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+

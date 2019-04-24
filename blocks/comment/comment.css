@@ -1,0 +1,24 @@
+@import url(./__image/comment__image.css);
+@import url(./__quote/comment__quote.css);
+@import url(./__author/comment__author.css);
+
+.comment {
+  max-width: 382px;
+  color: white;
+  width: calc((100% - 38px)/3);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .comment {
+    min-width: 288px;
+    max-width: 343px;
+    margin-bottom: 48px;
+  }
+
+  .comment:last-of-type {
+    margin-bottom: 0;
+  }
+  
+}

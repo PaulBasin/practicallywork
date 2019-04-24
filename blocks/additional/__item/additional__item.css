@@ -1,0 +1,48 @@
+@import url(./_location/_cherepovets/additional__item_location_cherepovets.css);
+@import url(./_location/_nikola/additional__item_location_nikola.css);
+@import url(./_location/_nvrssk/additional__item_location_nvrssk.css);
+@import url(./_location/_shikhan/additional__item_location_shikhan.css);
+
+
+.additional__item {
+  max-width: 284px;
+  width: calc((100% - 48px)/4);
+  min-height: 330px;
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+  .additional__item {
+    width: calc((100% - 30px)/4);
+    max-width: 240px;
+    min-height: 280px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .additional__item {
+    width: calc((100% - 16px)/2);
+    max-width: 284px;
+    max-height: 330px;
+  }
+
+  .additional__item:first-of-type {
+    margin-bottom: 16px;
+  }
+  .additional__item:nth-child(2) {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .additional__item {
+    min-height: 330px;
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}

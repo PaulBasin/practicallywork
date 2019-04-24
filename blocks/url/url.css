@@ -1,0 +1,14 @@
+@import url(./__heading/url__heading.css);
+@import url(./__link/url__link.css);
+
+.url {
+  max-width: 282px;
+}
+
+@media screen and (max-width: 700px) {
+  .url {
+    max-width: 100%;
+    width: calc(100% - 32px);
+    margin: 16px auto 0;
+  }
+}

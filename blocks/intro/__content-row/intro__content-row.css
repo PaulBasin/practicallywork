@@ -1,0 +1,11 @@
+.intro__content-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+@media screen and (max-width : 768px) {
+  .intro__content-row {
+    flex-direction: column-reverse;
+  }
+}

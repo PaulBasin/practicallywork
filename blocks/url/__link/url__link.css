@@ -1,0 +1,10 @@
+.url__link {
+  font-size: 18px;
+  color: white;
+  line-height: 30px;
+  margin-top: 16px;
+}
+
+.url__link:hover {
+  opacity: .8;
+}

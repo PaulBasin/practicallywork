@@ -1,0 +1,24 @@
+@import url(./__title/emblem__title.css);
+@import url(./__row/emblem__row.css);
+@import url(./__item/emblem__item.css);
+@import url(./__image/emblem__image.css);
+@import url(./__city/emblem__city.css);
+
+.emblem {
+  max-width: 1184px;
+  margin: 82px auto 0;
+  color: white;
+  width: calc(100% - 96px);
+}
+
+@media screen and (max-width: 1240px) {
+  .emblem {
+    width: calc(100% - 32px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .emblem {
+    width: calc(100% - 32px);
+  }
+}

@@ -1,0 +1,15 @@
+@import url(./_bold/intro__text_bold.css);
+@import url(./_column/_left/intro__text_column_left.css);
+
+
+.intro__text {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+@media screen and (max-width : 375px) {
+  .intro__text {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
